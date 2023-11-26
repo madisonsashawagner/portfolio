@@ -1,0 +1,76 @@
+body {
+    font-family: "verdana";
+    background: white;
+    color: black;
+    text-align: left;
+    margin: 100px;
+  }
+  #name {
+    text-align: center;
+    font-size: 80px;
+    background: black;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+.diverse_books {
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    font-size: 30px;
+}
+.diverse_books_illustration{
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    margin: auto;
+}
+.caption_info{
+    font-size: 20px;
+
+}
+
+  header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    }
+   figure img {
+    width: 50%;
+    height: auto;
+    padding: 5%;
+    }
+
+
+#site_nav {
+    background-color: #d3d3d3;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 5px;
+}
+
+nav ul li a{
+  color: #58355E;
+}
+
+@media (max-width: 700px) {
+  #name {
+    text-align: center;
+    font-size: 80px;
+    background: darkturquoise;
+    color: white;
+    padding-bottom: 10px;
+  }
+  header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+}
