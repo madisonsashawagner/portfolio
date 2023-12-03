@@ -63,3 +63,12 @@
   border-color: #638391;
   border-width: thick;
 }
+
+.bookcover{
+  max-width: 25%;
+  height: auto;
+  border-color:pink;
+  border-width: thick;
+  margin: auto auto;
+  padding: 50%;
+}
