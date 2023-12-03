@@ -12,13 +12,13 @@
   }
   
   h1 {
-    font-size: larger;
+    font-size: xx-large;
     background: #638391;
     font-weight: bolder;
     color: white;
   }
   h2{
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
     background: #b8dee6;
   }
@@ -27,13 +27,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 18%;
     }
-   #smile {
+   
+  #smile {
     max-width: 80%;
     height: auto;
     padding: 5%;
     margin: auto auto;
+    border-color:#b8dee6;
+    border-width: thick;
     }
  
   p {
@@ -42,10 +45,21 @@
     margin: auto auto;
   }
 
-  .navigation  {
+.navigation  {
     background-color: #b8dee6;
     list-style: none;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: medium;
   } 
+
+.gallerypic{
+  max-width: 70%;
+  height: auto;
+  padding: 10%;
+  margin: auto auto;
+  border-color: #638391;
+  border-width: thick;
+}
