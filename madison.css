@@ -55,6 +55,10 @@
     font-size: medium;
   } 
 
+  ul {
+    list-style-type: none;
+  }
+  
 .gallerypic{
   max-width: 70%;
   height: auto;
