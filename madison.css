@@ -64,6 +64,8 @@
 
   ul {
     list-style-type: none;
+    position: relative;
+    left: -20px;
   }
   
 .gallerypic{
@@ -91,14 +93,28 @@
     text-align: center;
     background: white;
     color: pink;
+    border-bottom: 5px solid;
   }
   h2{
     color: pink;
     background:white;
     text-align: center;
+    border-bottom: 5px solid;
+    margin: 0;
   }
   .navigation{
     color: #b8dee6;
-    background-color: white;
+    background-color: white;    
+    border-bottom: 5px solid;
+
+  }
+  p {
+    margin: 25px;
+  }
+  .gallerypic{
+    max-width: 75%;
+  }
+  .bookcover{
+    max-width: 50%;
   }
 }
